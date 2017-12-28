@@ -1,0 +1,108 @@
+---- handler Matches (107 in 41 files) ----
+{anonSCB_Type} in core_cm0.h (Drivers\CMSIS\Include) :   __IOM uint32_t SHCSR;                  /*!< Offset: 0x024 (R/W)  System Handler Control and State Register */
+core_cm0.h (Drivers\CMSIS\Include) line 479 : /* SCB System Handler Control and State Register Definitions */
+{anonSCB_Type} in core_cm0plus.h (Drivers\CMSIS\Include) :   __IOM uint32_t SHCSR;                  /*!< Offset: 0x024 (R/W)  System Handler Control and State Register */
+core_cm0plus.h (Drivers\CMSIS\Include) line 503 : /* SCB System Handler Control and State Register Definitions */
+{anonSCB_Type} in core_cm3.h (Drivers\CMSIS\Include) :   __IOM uint32_t SHCSR;                  /*!< Offset: 0x024 (R/W)  System Handler Control and State Register */
+core_cm3.h (Drivers\CMSIS\Include) line 552 : /* SCB System Handler Control and State Register Definitions */
+{anonSCB_Type} in core_cm4.h (Drivers\CMSIS\Include) :   __IOM uint32_t SHCSR;                  /*!< Offset: 0x024 (R/W)  System Handler Control and State Register */
+core_cm4.h (Drivers\CMSIS\Include) line 612 : /* SCB System Handler Control and State Register Definitions */
+{anonSCB_Type} in core_cm7.h (Drivers\CMSIS\Include) :   __IOM uint32_t SHCSR;                  /*!< Offset: 0x024 (R/W)  System Handler Control and State Register */
+core_cm7.h (Drivers\CMSIS\Include) line 665 : /* SCB System Handler Control and State Register Definitions */
+{anonSCB_Type} in core_sc000.h (Drivers\CMSIS\Include) :   __IOM uint32_t SHCSR;                  /*!< Offset: 0x024 (R/W)  System Handler Control and State Register */
+core_sc000.h (Drivers\CMSIS\Include) line 491 : /* SCB System Handler Control and State Register Definitions */
+{anonSCB_Type} in core_sc300.h (Drivers\CMSIS\Include) :   __IOM uint32_t SHCSR;                  /*!< Offset: 0x024 (R/W)  System Handler Control and State Register */
+core_sc300.h (Drivers\CMSIS\Include) line 549 : /* SCB System Handler Control and State Register Definitions */
+stm32f4xx_hal_adc.c (Drivers\STM32F4xx_HAL_Driver\Src) line 46 :              (+++) Enable the ADC IRQ handler using HAL_NVIC_EnableIRQ()
+stm32f4xx_hal_adc.c (Drivers\STM32F4xx_HAL_Driver\Src) line 47 :              (+++) In ADC IRQ handler, call HAL_ADC_IRQHandler()
+HAL_ADC_Start in stm32f4xx_hal_adc.c (Drivers\STM32F4xx_HAL_Driver\Src) :     /* interruption, to let the process to ADC IRQ Handler.                   */
+HAL_ADC_Start_IT in stm32f4xx_hal_adc.c (Drivers\STM32F4xx_HAL_Driver\Src) :     /* interruption, to let the process to ADC IRQ Handler.                   */
+HAL_ADC_Start_DMA in stm32f4xx_hal_adc.c (Drivers\STM32F4xx_HAL_Driver\Src) :     /* interruption, to let the process to ADC IRQ Handler.                   */
+{anonADC_HandleTypeDef} in stm32f4xx_hal_adc.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   DMA_HandleTypeDef             *DMA_Handle;                 /*!< Pointer DMA Handler */
+stm32f4xx_hal_adc_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 22 :              (+++) Enable the ADC IRQ handler using HAL_NVIC_EnableIRQ()
+stm32f4xx_hal_adc_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 23 :              (+++) In ADC IRQ handler, call HAL_ADC_IRQHandler()
+HAL_ADCEx_InjectedStart in stm32f4xx_hal_adc_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) :     /* interruption, to let the process to ADC IRQ Handler.                   */
+HAL_ADCEx_InjectedStart_IT in stm32f4xx_hal_adc_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) :     /* interruption, to let the process to ADC IRQ Handler.                   */
+HAL_ADCEx_MultiModeStart_DMA in stm32f4xx_hal_adc_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) :     /* interruption, to let the process to ADC IRQ Handler.                   */
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 13 :   *           + CRYP IRQ handler management
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 27 :              (+++) Enable the CRYP IRQ handler using HAL_NVIC_EnableIRQ()
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 28 :              (+++) In CRYP IRQ handler, call HAL_CRYP_IRQHandler()
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 3688 : /** @defgroup CRYP_Exported_Functions_Group6 CRYP IRQ handler management  
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 3689 :  *  @brief   CRYP IRQ handler.
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 3693 :                 ##### CRYP IRQ handler management #####
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 3695 : [..]  This section provides CRYP IRQ handler function.
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 4814 : /** @defgroup CRYP_Exported_Functions_Group4 CRYP IRQ handler 
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 4815 :  *  @brief   AES IRQ handler.
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 4819 :                 ##### AES IRQ handler management #####
+stm32f4xx_hal_cryp.c (Drivers\STM32F4xx_HAL_Driver\Src) line 4821 : [..]  This section provides AES IRQ handler function.
+stm32f4xx_hal_cryp.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 1116 : /** @addtogroup CRYP_Exported_Functions_Group4 CRYP IRQ handler 
+stm32f4xx_hal_cryp_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 20 :             (+++) Enable the CRYP IRQ handler using HAL_NVIC_EnableIRQ()
+stm32f4xx_hal_cryp_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 21 :             (+++) In CRYP IRQ handler, call HAL_CRYP_IRQHandler()
+stm32f4xx_hal_cryp_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2981 : /** @defgroup CRYPEx_Exported_Functions_Group2 CRYPEx IRQ handler management  
+stm32f4xx_hal_cryp_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2982 :  *  @brief   CRYPEx IRQ handler.
+stm32f4xx_hal_cryp_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2986 :                 ##### CRYPEx IRQ handler management #####
+stm32f4xx_hal_cryp_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2988 : [..]  This section provides CRYPEx IRQ handler function.
+{anonDAC_HandleTypeDef} in stm32f4xx_hal_dac.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   DMA_HandleTypeDef           *DMA_Handle1;  /*!< Pointer DMA handler for channel 1 */
+{anonDAC_HandleTypeDef} in stm32f4xx_hal_dac.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   DMA_HandleTypeDef           *DMA_Handle2;  /*!< Pointer DMA handler for channel 2 */
+{anonDCMI_HandleTypeDef} in stm32f4xx_hal_dcmi.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   DMA_HandleTypeDef             *DMA_Handle;         /*!< Pointer to the DMA handler   */
+HAL_DFSDM_FilterRegularStart_DMA in stm32f4xx_hal_dfsdm.c (Drivers\STM32F4xx_HAL_Driver\Src) :     /* Set callbacks on DMA handler */
+HAL_DFSDM_FilterRegularMsbStart_DMA in stm32f4xx_hal_dfsdm.c (Drivers\STM32F4xx_HAL_Driver\Src) :     /* Set callbacks on DMA handler */
+HAL_DFSDM_FilterInjectedStart_DMA in stm32f4xx_hal_dfsdm.c (Drivers\STM32F4xx_HAL_Driver\Src) :     /* Set callbacks on DMA handler */
+HAL_DFSDM_FilterInjectedMsbStart_DMA in stm32f4xx_hal_dfsdm.c (Drivers\STM32F4xx_HAL_Driver\Src) :     /* Set callbacks on DMA handler */
+{anonDFSDM_Filter_HandleTypeDef} in stm32f4xx_hal_dfsdm.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   DMA_HandleTypeDef             *hdmaReg;            /*!< Pointer on DMA handler for regular conversions */
+{anonDFSDM_Filter_HandleTypeDef} in stm32f4xx_hal_dfsdm.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   DMA_HandleTypeDef             *hdmaInj;            /*!< Pointer on DMA handler for injected conversions */
+stm32f4xx_hal_dma.c (Drivers\STM32F4xx_HAL_Driver\Src) line 44 :           (+) Enable the DMA IRQ handler using HAL_NVIC_EnableIRQ() 
+stm32f4xx_hal_flash.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 326 : /* FLASH IRQ handler method */
+stm32f4xx_hal_fmpi2c.c (Drivers\STM32F4xx_HAL_Driver\Src) line 337 : /* Private functions for FMPI2C transfer IRQ handler */
+stm32f4xx_hal_fmpi2c.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2967 : /** @defgroup FMPI2C_IRQ_Handler_and_Callbacks IRQ Handler and Callbacks
+__FMPI2C_HandleTypeDef in stm32f4xx_hal_fmpi2c.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   HAL_StatusTypeDef(*XferISR)(struct __FMPI2C_HandleTypeDef *hfmpi2c, uint32_t ITFlags, uint32_t ITSources);  /*!< FMPI2C transfer IRQ handler function pointer */
+stm32f4xx_hal_fmpi2c.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 578 : /** @addtogroup FMPI2C_IRQ_Handler_and_Callbacks IRQ Handler and Callbacks
+stm32f4xx_hal_hash.c (Drivers\STM32F4xx_HAL_Driver\Src) line 24 :             (+++) Enable the HASH IRQ handler using HAL_NVIC_EnableIRQ()
+stm32f4xx_hal_hash.c (Drivers\STM32F4xx_HAL_Driver\Src) line 25 :             (+++) In HASH IRQ handler, call HAL_HASH_IRQHandler()
+stm32f4xx_hal_hash_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 21 :             (+++) Enable the HASH IRQ handler using HAL_NVIC_EnableIRQ()
+stm32f4xx_hal_hash_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 22 :             (+++) In HASH IRQ handler, call HAL_HASH_IRQHandler()
+{anonHCD_HandleTypeDef} in stm32f4xx_hal_hcd.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   void                      *pData;     /*!< Pointer Stack Handler    */     
+stm32f4xx_hal_i2c.c (Drivers\STM32F4xx_HAL_Driver\Src) line 291 : /* Private functions for I2C transfer IRQ handler */
+stm32f4xx_hal_i2s_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1022 :   * @brief Full-Duplex IT handler transmit function
+stm32f4xx_hal_i2s_ex.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1068 :   * @brief Full-Duplex IT handler receive function
+stm32f4xx_hal_lptim.c (Drivers\STM32F4xx_HAL_Driver\Src) line 26 :              (+++) Enable the LPTIM IRQ handler using HAL_NVIC_EnableIRQ().
+stm32f4xx_hal_lptim.c (Drivers\STM32F4xx_HAL_Driver\Src) line 27 :              (+++) In LPTIM IRQ handler, call HAL_LPTIM_IRQHandler().
+stm32f4xx_hal_lptim.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1443 : /** @defgroup LPTIM_Group4 LPTIM IRQ handler 
+stm32f4xx_hal_lptim.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1444 :  *  @brief  LPTIM  IRQ handler.
+stm32f4xx_hal_lptim.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1448 :                       ##### LPTIM IRQ handler  #####
+stm32f4xx_hal_lptim.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1450 : [..]  This section provides LPTIM IRQ handler function.
+{anonPCD_HandleTypeDef} in stm32f4xx_hal_pcd.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   void                    *pData;       /*!< Pointer to upper stack Handler */
+stm32f4xx_hal_pwr.c (Drivers\STM32F4xx_HAL_Driver\Src) line 509 :   * @brief Indicates Sleep-On-Exit when returning from Handler mode to Thread mode. 
+stm32f4xx_hal_pwr.c (Drivers\STM32F4xx_HAL_Driver\Src) line 523 :   * @brief Disables Sleep-On-Exit feature when returning from Handler mode to Thread mode. 
+stm32f4xx_hal_pwr.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 326 : /* Power PVD IRQ Handler */
+stm32f4xx_hal_qspi.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 542 : /* QSPI IRQ handler method */
+stm32f4xx_hal_rcc.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 1266 : /* CSS NMI IRQ handler */
+stm32f4xx_hal_sai.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1874 :   * @brief  Tx Handler for Transmit in Interrupt mode 8-Bit transfer.
+stm32f4xx_hal_sai.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1898 :   * @brief  Tx Handler for Transmit in Interrupt mode for 16-Bit transfer.
+stm32f4xx_hal_sai.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1923 :   * @brief  Tx Handler for Transmit in Interrupt mode for 32-Bit transfer.
+stm32f4xx_hal_sai.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1948 :   * @brief  Rx Handler for Receive in Interrupt mode 8-Bit transfer.
+stm32f4xx_hal_sai.c (Drivers\STM32F4xx_HAL_Driver\Src) line 1974 :   * @brief  Rx Handler for Receive in Interrupt mode for 16-Bit transfer.
+stm32f4xx_hal_sai.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2001 :   * @brief  Rx Handler for Receive in Interrupt mode for 32-Bit transfer.
+__SAI_HandleTypeDef in stm32f4xx_hal_sai.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   void (*InterruptServiceRoutine)(struct __SAI_HandleTypeDef *hsai); /* function pointer for IRQ handler   */
+{anonSDRAM_HandleTypeDef} in stm32f4xx_hal_sdram.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   DMA_HandleTypeDef             *hdma;      /*!< Pointer DMA handler                   */
+HAL_SPI_Abort_IT in stm32f4xx_hal_spi.c (Drivers\STM32F4xx_HAL_Driver\Src) :   /* Change Rx and Tx Irq Handler to Disable TXEIE, RXNEIE and ERRIE interrupts */
+stm32f4xx_hal_spi.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2550 :   * @brief  Rx 8-bit handler for Transmit and Receive in Interrupt mode.
+stm32f4xx_hal_spi.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2584 :   * @brief  Rx 8-bit handler for Transmit and Receive in Interrupt mode.
+stm32f4xx_hal_spi.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2611 :   * @brief  Tx 8-bit handler for Transmit and Receive in Interrupt mode.
+stm32f4xx_hal_spi.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2644 :   * @brief  Rx 16-bit handler for Transmit and Receive in Interrupt mode.
+stm32f4xx_hal_spi.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2702 :   * @brief  Tx 16-bit handler for Transmit and Receive in Interrupt mode.
+{anonSRAM_HandleTypeDef} in stm32f4xx_hal_sram.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   DMA_HandleTypeDef             *hdma;      /*!< Pointer DMA handler                          */
+stm32f4xx_hal_tim.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2790 : /** @defgroup TIM_Exported_Functions_Group7 TIM IRQ handler management 
+stm32f4xx_hal_tim.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2791 :  *  @brief    IRQ handler management 
+stm32f4xx_hal_tim.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2795 :                         ##### IRQ handler management #####
+stm32f4xx_hal_tim.c (Drivers\STM32F4xx_HAL_Driver\Src) line 2798 :     This section provides Timer IRQ handler function.
+stm32f4xx_hal_tim.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 1429 : /* Interrupt Handler functions  **********************************************/
+stm32f4xx_it.c (Src) line 69 : /* For the available peripheral interrupt handler names,                      */
+stm32f4xx_ll_cortex.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 19 :       (+) API to enable fault handler (SHCSR accesses)
+stm32f4xx_ll_cortex.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 93 : /** @defgroup CORTEX_LL_EC_FAULT Handler Fault type
+stm32f4xx_ll_cortex.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 345 :   * @brief  Configures sleep-on-exit when returning from Handler mode to Thread mode.
+stm32f4xx_ll_cortex.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 396 : /** @defgroup CORTEX_LL_EF_HANDLER HANDLER
+stm32f4xx_ll_cortex.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 401 :   * @brief  Enable a fault in System handler control register (SHCSR)
+LL_HANDLER_EnableFault in stm32f4xx_ll_cortex.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   /* Enable the system handler fault */
+stm32f4xx_ll_cortex.h (Drivers\STM32F4xx_HAL_Driver\Inc) line 416 :   * @brief  Disable a fault in System handler control register (SHCSR)
+LL_HANDLER_DisableFault in stm32f4xx_ll_cortex.h (Drivers\STM32F4xx_HAL_Driver\Inc) :   /* Disable the system handler fault */
